@@ -18,7 +18,8 @@ const About = () => {
             <img src="https://ctmirror-images.s3.amazonaws.com/wp-content/uploads/2021/01/dummy-man-570x5701-1.png" className="card-img-top" alt="Card 1" />
             <div className="card-body">
               <h5 className="card-title">Team Member 1</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id turpis a justo pellentesque varius a sed ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare condimentum diam, eu tempus erat vulputate at. Nam at nunc libero. Morbi a imperdiet libero. 
+                    </p>
             </div>
           </div>
         </div>
@@ -29,7 +30,8 @@ const About = () => {
             <img src="https://ctmirror-images.s3.amazonaws.com/wp-content/uploads/2021/01/dummy-man-570x5701-1.png" className="card-img-top" alt="Card 2" />
             <div className="card-body">
               <h5 className="card-title">Team Member 2</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id turpis a justo pellentesque varius a sed ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare condimentum diam, eu tempus erat vulputate at. Nam at nunc libero. Morbi a imperdiet libero. 
+                    </p>
             </div>
           </div>
         </div>
@@ -40,7 +42,7 @@ const About = () => {
             <img src="https://ctmirror-images.s3.amazonaws.com/wp-content/uploads/2021/01/dummy-man-570x5701-1.png" className="card-img-top" alt="Card 3" />
             <div className="card-body">
               <h5 className="card-title">Team Member 3</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id turpis a justo pellentesque varius a sed ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare condimentum diam, eu tempus erat vulputate at. Nam at nunc libero. Morbi a imperdiet libero.</p>
             </div>
           </div>
         </div>
