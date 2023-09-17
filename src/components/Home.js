@@ -4,20 +4,22 @@ import { Carousel } from 'react-responsive-carousel';
 
 const Home = () => {
   return (
-    <Carousel>
-      <div>
-        <img src="https://source.unsplash.com/random/1920x1080/?travel#,travel" alt="Image 1" />
-        <p className="legend">"We don't need objects; we need adventures."</p>
-      </div>
-      <div>
-        <img src="https://source.unsplash.com/random/1920x1080/?adventure#,adventure" alt="Image 2" />
-        <p className="legend">"Travel is the only thing you buy that makes you richer."</p>
-      </div>
-      <div>
-        <img src="https://source.unsplash.com/random/1920x1080/?monuments#,monuments" alt="Image 3" />
-        <p className="legend">"Jobs fill your pockets, adventures fill your soul."</p>
-      </div>
-    </Carousel>
+    <div className="carousel-container"> {/* Add a container div */}
+      <Carousel>
+        <div>
+          <img src="https://source.unsplash.com/random/1920x1080/?briyani,samosa" alt="Image 1" />
+          <p className="legend">"A recipe has no soul. You, as the cook, must bring soul to the recipe"</p>
+        </div>
+        <div>
+          <img src="https://source.unsplash.com/random/1920x1080/?pasta,pizza,burger" alt="Image 2" />
+          <p className="legend">“Food brings people together on many different levels. It’s nourishment of the soul and body; it’s truly love.”</p>
+        </div>
+        <div>
+          <img src="https://source.unsplash.com/random/1920x1080/?chocolates,cookies,donuts" alt="Image 3" />
+          <p className="legend">"Life is uncertain. Eat dessert first"</p>
+        </div>
+      </Carousel>
+    </div>
   );
 };
 

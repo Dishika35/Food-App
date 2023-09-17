@@ -8,7 +8,7 @@ const NavBar=()=>{
           <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
             <div class="container-fluid">
                 <Link className="navbar-brand" to="/">
-                    EasyGO🛩️
+                    Foodies👩‍🍳
                 </Link>
                 <div className="collapse navbar-collapse">
                     <ul className="navbar-nav me-auto">
@@ -19,21 +19,19 @@ const NavBar=()=>{
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/contact">
-                                Destination 
+                                Recipes 
                             </Link>
                         </li>
+                    
+
+                        
                         <li className="nav-item">
                             <Link className="nav-link" to="/about">
                                 About
                             </Link>
                         </li>
                     </ul>
-                    <Link className="btn btn-info mx-2" to="/login">
-                        Login
-                    </Link>
-                    <Link className="btn btn-info mx-2" to="/signup">
-                        Signup
-                    </Link>
+                    
                 </div>
             </div>
           </nav>

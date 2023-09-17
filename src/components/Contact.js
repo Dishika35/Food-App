@@ -3,54 +3,35 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Contact=()=>{
     return(
         <>
-<div className="container">
-  <img src="https://images.indianexpress.com/2022/02/Beach-1200.jpg" className="card-img-top" alt="homepage"height="250px"
-                    width="250px" />
-  <div className="card-body">
-      <h5 className="card-title">Try out our new offers!</h5>
-      <p className="card-text">Have a safe journey✈️</p>
-    </div>
-</div>
+
 
     <div className="container">
       <div className="row">
         <div className="col-md-4">
           <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
-            <img src="https://source.unsplash.com/random/1920x1080/?tajmahal,tajmahal" className="card-img-top" alt="Taj Mhal" />
+            <img src="https://source.unsplash.com/random/1920x1080/?dosa,dosa" className="card-img-top" alt="dosa" />
             <div className="card-body">
-              <h5 className="card-title">Taj Mahal</h5>
-              <p className="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-              <p>Price:10K</p>
-              <a href="https://en.wikipedia.org/wiki/Computer_programming#:~:text=Programming%20involves%20tasks%20such%20as,commonly%20referred%20to%20as%20coding)." className="btn btn-primary">Read More</a>
+              <h5 className="card-title">Dosa</h5>
+              <a href="https://www.vegrecipesofindia.com/dosa-recipe-dosa-batter-recipe/" className="btn btn-primary">Lets cook!</a>
             </div>
           </div>
         </div>
         
         <div className="col-md-4">
           <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
-            <img src="https://source.unsplash.com/random/1920x1080/?Lehladakh,Lehladakh" className="card-img-top" alt="Python" />
+            <img src="https://source.unsplash.com/random/1920x1080/?Biriyani,Biriyani" className="card-img-top" alt="Biriyani" />
             <div className="card-body">
-              <h5 className="card-title">Leh Ladakh</h5>
-              <p className="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-              
-              <p>Price:15K</p>
-              
-              <a href="https://en.wikipedia.org/wiki/Computer_programming#:~:text=Programming%20involves%20tasks%20such%20as,commonly%20referred%20to%20as%20coding)." className="btn btn-primary">Read More</a>
+              <h5 className="card-title">Biriyani</h5>
+               <a href="https://www.indianhealthyrecipes.com/chicken-biryani-recipe/" className="btn btn-primary">Lets cook!</a>
             </div>
           </div>
         </div>
         <div className="col-md-4">
           <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
-            <img src="https://source.unsplash.com/random/1920x1080/?Manali,Manali" className="card-img-top" alt="JavaScript" />
+            <img src="https://source.unsplash.com/random/1920x1080/?Sandwich,Sandwich" className="card-img-top" alt="ButterChicken" />
             <div className="card-body">
-              <h5 className="card-title">Manali</h5>
-              <p className="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-              <p>Price:12K</p>
-              
-              <a href="https://en.wikipedia.org/wiki/Computer_programming#:~:text=Programming%20involves%20tasks%20such%20as,commonly%20referred%20to%20as%20coding)." className="btn btn-primary">Read More</a>
+              <h5 className="card-title">Sandwich</h5>
+               <a href="https://www.orchidsinternationalschool.com/learning-beyond/how-to-make-a-sandwich-step-by-step/"className="btn btn-primary">Lets cook!</a>
             </div>
           </div>
         </div>
@@ -60,45 +41,105 @@ const Contact=()=>{
       <div className="row">
         <div className="col-md-4">
           <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
-            <img src="https://source.unsplash.com/random/1920x1080/?Coorg,Coorg" className="card-img-top" alt="Java" />
+            <img src="https://source.unsplash.com/random/1920x1080/?GulabJamun,GulabJamun" className="card-img-top" alt="GulabJamun" />
             <div className="card-body">
-              <h5 className="card-title">Coorg</h5>
-              <p className="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> 
-              <p>Price:17K</p>
-              
-              <a href="https://en.wikipedia.org/wiki/Programming_language" className="btn btn-primary">Read More</a>
+              <h5 className="card-title">Gulab Jamun</h5>
+              <a href="https://foodviva.com/desserts-sweets-recipes/gulab-jamun-recipe/" className="btn btn-primary">Lets cook!</a>
             </div>
           </div>
         </div>
         <div className="col-md-4">
           <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
-            <img src="https://source.unsplash.com/random/1920x1080/?ooty,ooty" className="card-img-top" alt="Python" />
+            <img src="https://source.unsplash.com/random/1920x1080/?Pizza,Pizza" className="card-img-top" alt="Paneer" />
             <div className="card-body">
-              <h5 className="card-title">Ooty</h5>
-              <p className="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-              <p>Price:7K</p>
-              
-              <a href="https://en.wikipedia.org/wiki/Programming_language" className="btn btn-primary">Read More</a>
+              <h5 className="card-title">Pizza</h5>
+              <a href="https://www.indianhealthyrecipes.com/pizza-recipe-make-pizza/" className="btn btn-primary">Lets cook!</a>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4">
+          <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
+            <img src="https://source.unsplash.com/random/1920x1080/?Samosa,Samosa" className="card-img-top" alt="Samosa" />
+            <div className="card-body">
+              <h5 className="card-title">Samosa</h5>
+              <a href="https://www.indianhealthyrecipes.com/samosa-recipe-make-samosa/" className="btn btn-primary">Lets cook!</a>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+    
+        <div className="container">
+      <div className="row">
+        <div className="col-md-4">
+          <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
+            <img src="https://source.unsplash.com/random/1920x1080/?bread,braed" className="card-img-top" alt="dosa" />
+            <div className="card-body">
+              <h5 className="card-title">Bread</h5>
+              <a href="https://www.vegrecipesofindia.com/white-bread-easy-white-bread/" className="btn btn-primary">Lets cook!</a>
+            </div>
+          </div>
+        </div>
+        
+        <div className="col-md-4">
+          <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
+            <img src="https://source.unsplash.com/random/1920x1080/?Cheese,Cheese" className="card-img-top" alt="Biriyani" />
+            <div className="card-body">
+              <h5 className="card-title">Cheese</h5>
+               <a href="https://www.instructables.com/Basic-Steps-of-How-to-Make-Cheese/" className="btn btn-primary">Lets cook!</a>
             </div>
           </div>
         </div>
         <div className="col-md-4">
           <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
-            <img src="https://source.unsplash.com/random/1920x1080/?jaipur,jaipur" className="card-img-top" alt="JavaScript" />
+            <img src="https://source.unsplash.com/random/1920x1080/?pancake,pancake" className="card-img-top" alt="ButterChicken" />
             <div className="card-body">
-              <h5 className="card-title">Jaipur</h5>
-              <p className="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> 
-              <p>Price:9.5K</p>
-              
-              <a href="https://en.wikipedia.org/wiki/Programming_language" className="btn btn-primary">Read More</a>
+              <h5 className="card-title">Pan Cake</h5>
+               <a href="https://www.allrecipes.com/recipe/45396/easy-pancakes/" className="btn btn-primary">Lets cook!</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <div className="container">
+      <div className="row">
+        <div className="col-md-4">
+          <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
+            <img src="https://source.unsplash.com/random/1920x1080/?friedchicken,friedchicken" className="card-img-top" alt="GulabJamun" />
+            <div className="card-body">
+              <h5 className="card-title">Fried Chicken</h5>
+              <a href="https://www.tasteofhome.com/recipes/crispy-fried-chicken/" className="btn btn-primary">Lets cook!</a>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
+            <img src="https://source.unsplash.com/random/1920x1080/?frenchfries,frenchfries" className="card-img-top" alt="Paneer" />
+            <div className="card-body">
+              <h5 className="card-title">French Fries</h5>
+              <a href="https://www.vegrecipesofindia.com/french-fries-navratri-recipe/" className="btn btn-primary">Lets cook!</a>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4">
+          <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
+            <img src="https://source.unsplash.com/random/1920x1080/?Salad,Salad" className="card-img-top" alt="Samosa" />
+            <div className="card-body">
+              <h5 className="card-title">Salad</h5>
+              <a href="https://www.thekitchn.com/how-to-make-the-perfect-simple-salad-cooking-lessons-from-the-kitchn-173111" className="btn btn-primary">Lets cook!</a>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+
+        
+               
+        
+        
+      
   
         </>
     );
